@@ -19,6 +19,9 @@ jobs:
         with:
           dotnet-version: 5.0.x
       
+      - name: ls
+        run: ls ./Barter
+      
       # publishes Blazor project to the release-folder
       - name: Publish .NET Core Project
         run: dotnet publish Barter/Barter.csproj -c Release -o release --nologo
