@@ -11,4 +11,10 @@
         <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Content Include="..\..\.github\workflows\main.yaml">
+        <Link>main.yaml</Link>
+      </Content>
+    </ItemGroup>
+
 </Project>
