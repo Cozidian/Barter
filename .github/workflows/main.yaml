@@ -20,7 +20,7 @@ jobs:
           dotnet-version: 5.0.x
           
       - name: Run unit tests
-        run: dotnet test
+        run: dotnet test Barter
       
       # publishes Blazor project to the release-folder
       - name: Publish .NET Core Project
